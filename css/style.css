@@ -8,8 +8,14 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-.main-container {
+.list-container {
     margin: auto;
     max-width: 800px;
     border: 1px solid black;
+    border-radius: .5rem;
 }
+
+/* i:hover {
+    cursor: pointer;
+    color: red;
+} */

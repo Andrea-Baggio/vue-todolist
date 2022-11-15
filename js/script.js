@@ -17,7 +17,7 @@ const app = new Vue({
     el: '#root',
     data: {
       todos: [
-        {text: 'Pulire casa',
+        {'text': 'Pulire casa',
         'done': true, 
         },
         {'text': 'Fare i compiti',
@@ -31,6 +31,9 @@ const app = new Vue({
         },
         ]
     },
+
+
+    
 
     methods: {
 

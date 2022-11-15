@@ -30,19 +30,22 @@
                 <h1>Todo List</h1>
             </div>
             <div id="root">
-                <div class="main-container">
+                <div class="list-container">
                     <div class="row">
                         <div class="col col">
-                            <ul>
-                                <li v-for="text in todos">      
-                                    {{ text }} <hr>
-                                </li>
-                               
-                            </ul>
-                            
+                            <ul>                                
+                                <li v-for="element in todos" class="pe-4 pt-1">      
+                                    {{ element.text }}
+                                    <hr>
+                                </li>                               
+                            </ul>                            
                         </div>
                     </div>
                 </div>
+
+
+
+
             </div>
         </div>
     </body>
